@@ -1,4 +1,4 @@
-FROM python:2-alpine3.7
+FROM resin/raspberrypi3-alpine-python:2
 
 ENTRYPOINT [ "certbot" ]
 EXPOSE 80 443
